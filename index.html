@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+<body>
+
+  <div class="card-container">
+    <div class="card-content state1">
+      <img src="" alt="" class="icon">
+      <h1>How did we do?</h1>
+      <p>Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+      <form>
+        <div class="rating">
+          <input id="one" type="radio" id="one" name="grade" value="1" class="rates">
+          <label for="one">1</label>
+          <input type="radio" id="two" name="grade" value="2" class="rates">
+          <label for="two">2</label>
+          <input type="radio" id="three" name="grade" value="3" class="rates">
+          <label for="three">3</label>
+          <button class="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <div class="card-content state2">
+      <img src="" alt="" class="tks-img">
+      <div class="given-note">
+        <p>You selected 4 out of 5</p>
+      </div>
+      <h2>Thank you!</h2>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+        dont hesitate to get in touch!</p>
+    </div>
+  </div>
+  <script src="./scripts.js"></script>
+</body>
+</html>
