@@ -1,7 +1,7 @@
 const btn = document.querySelector('.submit');
 const state1 = document.querySelector('.state1');
 const state2 = document.querySelector('.state2');
-const given_note = document.querySelector('.given-note');
+const given_grade_component = document.querySelector('.given-note');
 
 btn.addEventListener('click', checkButton);
 
@@ -18,5 +18,5 @@ function checkButton(event) {
         }
     }
     console.log(rate);
-    given_note.innerHTML = `<p>You selected ${rate} out of 5</p>`
+    given_grade_component.innerHTML = `<p>You selected ${rate} out of 5</p>`
 }
